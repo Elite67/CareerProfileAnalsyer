@@ -133,7 +133,7 @@ def AI(current_cgpa, company_name, skills):
 st.title("📄 Student Career Profile Analysis")
 
 with st.form("job_form"):
-    st.write("📌 **Enter Job Details**")
+    st.write("📌 **Enter your current details!**")
     current_cgpa = st.text_input("Current CGPA:", placeholder="0 - 10")
     company_name = st.text_input("Dream Company Name:", placeholder="e.g. Google")
     skills = st.text_input("Current Skills:", placeholder="e.g. Python, React, SQL")
